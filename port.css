@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Montserrat', sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(BG.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    margin: 20px 0px 20px 0px;
+    font-size: 75px;
+    color: white;  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 0px 15px 15px;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: skyblue;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 10px 25px;
+}
+.wal{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+.content {
+    margin: 70px 70px;
+    color: white;
+}
+.theh3 {
+    color: darkcyan;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+form {
+    width: 380px;
+    position: relative;
+    }
+form input:first-child{
+    width: 61%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid deepskyblue;
+    border-radius: 30px;
+    outline: none;
+}
+form input:last-child{
+    background-color: deepskyblue;
+    border-radius: 30px;
+    padding: 10px 30px;
+    border: none;
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    cursor: pointer;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.about .main img{
+    height: 350px;
+    width: 380px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    }
+    .about-text h5{
+        color: white;
+        letter-spacing: 2px;
+        font-size: 22px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+    }
+    .about-text p{
+        color: white;
+        letter-spacing: 1px;
+        font-size: 18px;
+        margin-bottom: 45px;
+    }
+    .about-text button{
+        background-color: skyblue;
+        border-radius: 30px;
+        height: 40px;
+        width: 100px;
+        font-weight: bold;
+        cursor: pointer;
+         }
+.service{
+    background-color: black;
+}
+.service h2{
+    font-size: 50px;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
+.wbc{
+    font-size: 10px;
+    display: flex;
+    padding-top: 80px;
+    align-items: center;
+    text-align: center;
+    margin: 0px 200px;
+    justify-content: space-between;
+}
+.wbc div{
+    width: 300px;
+    text-align: center;
+}
+.wbc button{
+    align-items: center;
+    text-align: center;
+}
+.wbc h3,p{
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 11px;
+}
+.wbc button{
+    border-radius: 70px;
+    background-color: burlywood;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 550;
+}
+.wbc i{
+    align-items: center;
+    color: burlywood;
+    font-size: 40px;
+    padding-bottom: 15px;
+}
+.service article{
+    color: white;
+    margin-top: 120px;
+    align-items: center;
+    text-align: center;
+}
+.service article button{
+    padding: 8px 20px;
+    border-radius: 70px;
+    color: aliceblue;
+    background-color: burlywood;
+    font-weight: 550;
+    margin-top: 7px;
+}
+.footer{
+    text-align: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+.footer h3{
+    font-size: 13px;
+}
+.footer i{
+    margin: 15px 0px;
+}
+.footer div{
+    justify-content: space-between;
+    display: flex;
+}
+/* media queries */
+@media (max-width: 768px) {
+    
+}
